@@ -1,0 +1,44 @@
+/*T1 bar*/
+.top_bg{
+    background: #242424;
+}
+.top_bg{
+    background: #242424;
+}
+.header{
+    padding:0  4%;
+}
+.logo{
+    float:left;
+    margin: 14px 0;
+}
+.log_reg{
+    border-right: 1px solid rgb(60, 60, 60);
+    padding: 12px 16px;
+    float:right;
+}
+.log_reg ul li{
+    display: inline-block;
+}
+.web_search{
+    position: relative;
+    float:right;
+    width: 28.33333%;
+    border-right: 1px solid rgb(60, 60, 60);
+    padding: 6px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
