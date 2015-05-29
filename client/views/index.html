@@ -1,0 +1,52 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+    <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+
+</head>
+
+<body>
+<div class="navbar" id='cssmenu'>
+
+    <ul>
+        <li><div id="lsiLogo"><img ng-src="/images/whiteLSILogo.png"  /></div></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#headBarTwo">Products</a></li>
+        <li><a href='#'>Contact</a></li>
+        <li><a href="login.html">Login</a> </li>
+        <li><a href="register.html">Register</a> </li>
+        <li><div class="clear"></div></li>
+        <li><div class="web_search">
+            <form>
+                <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+                <input type="submit" value=" " />
+            </form>
+        </div></li>
+        <div class="clear"></div>
+
+
+    </ul>
+</div>
+
+
+
+<div class="homeTab">
+    <!--<div ng-include="'/views/userinfo.html'"></div>-->
+</div>
+
+
+
+<main ng-view></main>
+
+
+
+
+
+<script type="text/javascript" src="/vendor/angular/angular.min.js"></script>
+<script type="text/javascript" src="/vendor/angular-route/angular-route.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/javascripts/app.min.js"></script>
+</body>
+</html>

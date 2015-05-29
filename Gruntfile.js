@@ -24,6 +24,16 @@ module.exports = function(grunt) {
                 ],
                 "dest": "public/vendor/"
             },
+            angularRoute: {
+                expand:true,
+                cwd:"node_modules",
+                src:[
+                    "angular-route/angular-route.min.js",
+                    "angular-route/angular-route.min.js.map"
+                ],
+                "dest": "public/vendor/"
+            },
+
             bootstrap: {
                 expand: true,
                 cwd: "node_modules",
@@ -41,19 +51,27 @@ module.exports = function(grunt) {
             },
             styles: {
                 expand: true,
-                cwd: "client",
+                cwd: "client/stylesheets",
                 src: [
-                    "/stylesheets/style.css"
+                    "style.css"
                 ],
-                "dest": "public/"
+                "dest": "public/stylesheets/"
             },
             views: {
                 expand: true,
-                cwd: "client",
+                cwd: "client/views/",
                 src: [
-                    "views/userinfo.html"
+                    "index.html",
+                    "carousel.html",
+                    "headBarTwo.html",
+                    "home.html",
+                    "homePageThumbnails.html",
+                    "userinfo.html"
+
+
+
                 ],
-                "dest": "public/"
+                "dest": "public/views/"
             }
         }
     });
