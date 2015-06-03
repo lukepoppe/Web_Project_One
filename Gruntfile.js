@@ -9,6 +9,10 @@ module.exports = function(grunt) {
             build: {
                 src: 'client//scripts/app.js',
                 dest: 'public/javascripts/app.min.js'
+            },
+            headBarTwo: {
+                src: 'client/scripts/headBarTwo.js',
+                dest: 'public/javascripts/headBarTwo.min.js'
             }
         },
         copy: {
@@ -33,7 +37,15 @@ module.exports = function(grunt) {
                 ],
                 "dest": "public/vendor/"
             },
-
+            angularResource:{
+                expand: true,
+                cwd: "node_modules",
+                src:[
+                    "angular-resource/angular-resource.min.js",
+                    "angular-resource/angular-resource.min.js.map"
+                ],
+                "dest": "public/vendor"
+            },
             bootstrap: {
                 expand: true,
                 cwd: "node_modules",
@@ -66,7 +78,8 @@ module.exports = function(grunt) {
                     "headBarTwo.html",
                     "home.html",
                     "homePageThumbnails.html",
-                    "userinfo.html"
+                    "userinfo.html",
+                    "headBarTwo.html"
 
 
 
