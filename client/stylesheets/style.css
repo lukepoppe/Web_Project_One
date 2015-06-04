@@ -1,3 +1,9 @@
+body {
+    /*background: url("/images/rain-of-stars-art-wide-hd-wallpaper.jpg");*/
+}
+
+
+
 /*T1 bar*/
 .spotifyWidget{
     margin-left: auto; margin-right: auto;
@@ -17,7 +23,7 @@
     /*background-size: 20px 20px;*/
     background-image: url('/images/Carbon_LSI_Background.jpg');
     overflow: hidden;
-    border-bottom: 2px solid #f47f32;
+    border-bottom: 2px solid #00FFFF;
 
 
 
@@ -64,7 +70,7 @@
     border-radius: 25px 25px 25px 25px;
     -moz-border-radius: 25px 25px 25px 25px;
     -webkit-border-radius: 25px 25px 25px 25px;
-    border: 2px solid #f47f32;
+    border: 2px solid #00FFFF;
 
 
 }
@@ -73,7 +79,7 @@
     border-radius: 25px 25px 25px 25px;
     -moz-border-radius: 25px 25px 25px 25px;
     -webkit-border-radius: 25px 25px 25px 25px;
-    border: 1px solid #f47f32;
+    border: 1px solid #00FFFF;
 
 }
 h3{
@@ -112,12 +118,12 @@ h3{
 }
 #cssmenu {
     width: auto;
-    border: 3px solid #f47f32;
+    border: 3px solid #00FFFF;
     border-radius: 3px;
     font-family: 'Oswald', sans-serif;
     line-height: 1;
     background: #f7f7f7;
-    box-shadow: 1px 1px 0 #df7002, 2px 2px 0 #df7002, 3px 3px 3px rgba(0, 0, 0, 0.35);
+    box-shadow: 1px 1px 0 #00FFFF, 2px 2px 0 #00FFFF, 3px 3px 3px rgba(0, 0, 0, 0.35);
 }
 #cssmenu > ul {
     background: url('/images/Carbon_LSI_Background.jpg');
@@ -141,7 +147,7 @@ h3{
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #fd8a17;
+    color: #00FFFF;
     -webkit-transition: all .1s ease;
     -moz-transition: all .1s ease;
     -ms-transition: all .1s ease;
@@ -160,7 +166,7 @@ h3{
     height: 0;
     width: 0;
     border: 5px solid transparent;
-    border-bottom-color: #fd8a17;
+    border-bottom-color: #00FFFF;
     -webkit-transition: all 0.25s ease-out;
     -moz-transition: all 0.25s ease-out;
     -ms-transition: all 0.25s ease-out;
@@ -195,7 +201,7 @@ h3{
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #fd8a17;
+    color: #00FFFF;
     background: url('/images/Carbon_LSI_Background.jpg''images/bg.png');
 }
 #cssmenu.small-screen #menu-button.menu-opened {
@@ -210,8 +216,8 @@ h3{
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    border-top: 2px solid #fd8a17;
-    border-bottom: 2px solid #fd8a17;
+    border-top: 2px solid #00FFFF;
+    border-bottom: 2px solid #00FFFF;
     width: 18px;
     height: 3px;
 }
@@ -227,10 +233,10 @@ h3{
     display: block;
     width: 18px;
     height: 2px;
-    background: #fd8a17;
+    background: #00FFFF;
 }
 #cssmenu.small-screen #menu-button.menu-opened:before {
-    background: #444444;
+    background: #00FFFF;
 }
 #cssmenu.small-screen #menu-indicator {
     display: none;

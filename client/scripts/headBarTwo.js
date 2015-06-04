@@ -1,12 +1,4 @@
-//var myApp = angular.module("myApp", []);
-//
-//myApp.controller('HeadBarTwoController', ['$scope', '$http', function($scope, $http){
-//
-//    return $http.get('/users').then(function(response){
-//       $scope.users = response.data;
-//
-//    });
-//}]);
+
 
 
 myApp.controller('HeadBarTwoController',['$scope','$http', function($scope, $http){
@@ -24,4 +16,7 @@ myApp.controller('HeadBarTwoController',['$scope','$http', function($scope, $htt
     }
 
     $scope.getData();
+
+
 }]);
+

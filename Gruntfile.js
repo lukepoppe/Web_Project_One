@@ -79,7 +79,8 @@ module.exports = function(grunt) {
                     "home.html",
                     "homePageThumbnails.html",
                     "userinfo.html",
-                    "headBarTwo.html"
+                    "headBarTwo.html",
+                    "reviews.html"
 
 
 

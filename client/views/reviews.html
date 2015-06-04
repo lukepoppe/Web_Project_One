@@ -1,0 +1,53 @@
+<div class="container" ng-controller="productReviews">
+
+    <div class="row">
+        <div ng-repeat="review in reviews">
+            <div class="allReviews col-md-3" height="200px">
+                <p class="lead">{{review.name}}</p>
+                <p><b>{{review.rating}} Star</b></p>
+                <p>{{review.note}}</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div id="review">
+        <div class="col-sm-offset-3 col-md-5">
+            <form class="form-horizontal">
+                <h2>Talk about how much you love Pryda</h2>
+                <hr>
+
+                <p class="lead">How did we do?</p>
+                <p>Write a review and let others know how your experience was</p>
+
+
+                <div class="form-group">
+                    <label for="name" class="col-md-3">Name: </label>
+                    <div class="col-md-9">
+                        <input ng-model="review.name" type="text" class="form-control" id="name">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <ul id="starRating">
+                        <li><input ng-model="review.rating" type="radio" value="1">1 Star </li>
+                        <li><input ng-model="review.rating" type="radio" value="2">2 Stars </li>
+                        <li><input ng-model="review.rating" type="radio" value="3">3 Stars </li>
+                        <li><input ng-model="review.rating" type="radio" value="4">4 Stars </li>
+                        <li><input ng-model="review.rating" type="radio" value="5">5 Stars </li>
+                    </ul>
+                </div>
+
+                <div class="form-group">
+                    <label for="note" class="col-md-3">Review: </label>
+                    <div class="col-md-9">
+                    <textarea ng-model="review.note" name="textarea" rows="15" cols="50" form="review"
+                              id="note"></textarea>
+                    </div>
+                </div>
+
+                <button ng-click="sendReview(review)" class="btn-lg btn-info">Send Message</button>
+            </form>
+        </div>
+    </div>
+</div>

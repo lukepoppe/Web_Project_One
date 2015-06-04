@@ -20,6 +20,7 @@
     "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-uglify": "^0.9.1",
     "jquery": "^2.1.4",
+    "mongojs": "^0.18.2",
     "morgan": "~1.5.1",
     "serve-favicon": "~2.2.0"
   },
